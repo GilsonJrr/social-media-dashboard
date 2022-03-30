@@ -1,0 +1,152 @@
+.HomeBody{
+    /* background-color: hsl(230, 17%, 14%); */
+    /* background-image: linear-gradient(#4343, #209201); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeBodyLight {
+    background-color: #FFFF;
+    background-image: url('../../img/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.TitlesDiv{
+    width: 100%;
+    /* background-color: hsl(232, 19%, 15%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 40px 0px;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: -40px; */
+}
+
+.Titles{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Titles p1{
+    width: 100%;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.TitlesLight p1{
+    color: #000000;
+}
+
+.Titles p2{
+    font-size: 13.5px;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}
+
+.DarkMode{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DarkMode p2{
+    font-size: 12px;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}
+
+.HomeBody hr{
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    height: 0.1px;
+    color: hsl(228, 34%, 66%);
+    background-color: hsl(228, 34%, 66%, 0.3);
+}
+
+.MainCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.OverViewDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px 0px 25px;
+}
+
+.OverViewDiv p1{
+    width: 100%;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.OverViewDivLight p1{
+    color: hsl(230, 17%, 14%);
+}
+
+.OverCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    .TitlesDiv{
+        width: 80%;
+        flex-direction: row;
+        align-items: flex-start;
+        /* justify-content: space-between; */
+        padding: 25px 0px 40px 0px;
+    }
+    .MainCardDiv{
+        width: 82%;
+    }
+    
+    .OverCardDiv{
+        width: 82%;
+    }
+    .DarkMode{
+        margin-top: 0px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .DarkMode p2{
+        margin-right: 15px;
+    }
+    .HomeBodyLight {
+        background-image: url('../../img/bg-pattern-web.svg');
+    }
+    .HomeBody hr{
+        margin-top: 0px;
+        width: 0%;
+        border: none;
+        height: 0px;
+    }
+}

@@ -1,0 +1,110 @@
+.CardBody{
+    background-color: hsl(228, 28%, 20%);
+    width: 80%;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.CardBody p2{
+    color: hsl(0, 0%, 100%);
+}
+
+.CardBodyLight{
+    background-color: hsl(225, 100%, 98%);
+}
+
+.CardBodyLight p2{
+    color: hsl(230, 17%, 14%); 
+}
+
+.CardTop{
+    height: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 28px;
+}
+
+.LogoName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.LogoName img{
+    margin-right: 5px;
+    width: 5%;
+}
+
+.LogoName p1{
+    font-size: 10px;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}
+
+.Followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.CardBody p2{
+    font-size: 45px;
+    /* color: hsl(0, 0%, 100%); */
+    font-weight: 700;
+}
+
+.Followers p3{
+    font-size: 10px;
+    color: hsl(228, 34%, 66%);
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.Up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Up img {
+    margin-right: 5px;
+}
+
+.Up p4{
+    font-size: 10px;
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+}
+
+.Down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Down img {
+    margin-right: 5px;
+}
+
+.Down p4{
+    font-size: 10px;
+    color: hsl(356, 69%, 56%);
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 650px) {
+    .CardBody{
+        width: 22%;
+        /* margin-left: 20px; */
+    }
+}

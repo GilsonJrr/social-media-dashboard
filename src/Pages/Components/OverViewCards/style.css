@@ -1,0 +1,65 @@
+.CardOverBody{
+    background-color: hsl(228, 28%, 20%);
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.CardOverBodyLight{
+    background-color: hsl(225, 100%, 98%);
+}
+
+.CardOverBodyLight p1{
+    color: hsl(230, 17%, 14%);
+}
+
+.Top{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 11px;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}
+
+.Top img{
+    width: 15px;
+    height: auto;
+}
+
+.Botton{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Up{
+    font-size: 9px;
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+}
+
+.Down{
+    font-size: 9px;
+    color: hsl(356, 69%, 56%);
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 650px) {
+    .CardOverBody{
+        width: 22%;
+    }
+}
